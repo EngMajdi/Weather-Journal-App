@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    background-color: #fffff8;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f23557;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Form Styles */
+.form-section {
+    display: grid;
+    grid-gap: 1em;
+    justify-items: center;
+}
+
+.zip, .feel {
+    text-align: center;
+}
+
+label {
+    font-size: 27px;
+}
+
+input[type="text"], textarea {
+    width: 320px;
+    height: 60px;
+    background-color: #22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+textarea {
+    height: 150px;
+    resize: none; /* Prevent resizing of the textarea */
+}
+
+button {
+    width: 400px;
+    height: 100px;
+    background-color: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+
+/* Entry Display Styles */
+.entry-section {
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.entry-holder {
+    background-color: rgba(59, 74, 107, .4);
+    padding: 20px;
+}
+
+.entry-date, .entry-temp, .entry-content {
+    margin-bottom: 10px;
+}
+
+/* Placeholder Text Styles */
+::placeholder {
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+}
+
+:-ms-input-placeholder {
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+}
+
+::-ms-input-placeholder {
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+}
